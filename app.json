@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "demoapp",
+    "slug": "demoapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/demologo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/demosplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/demologo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kenessary.demoapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72ca8d75-00da-4049-bc0c-0375cd7fed35"
+      }
+    }
+  }
+}
